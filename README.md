@@ -22,6 +22,26 @@ Validate FSH alias consistency across all `.fsh` files under a directory (recurs
 
 ## Usage
 
+### Use from Marketplace / GitHub
+
+```yaml
+name: Validate FSH Aliases
+on:
+  push:
+  pull_request:
+
+jobs:
+  validate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: patrick-werner/alias-duplicate-checker@v0
+        with:
+          fsh_directory: input/fsh
+```
+
+### Use locally (this repo)
+
 ```yaml
 name: Validate FSH Aliases
 on:
