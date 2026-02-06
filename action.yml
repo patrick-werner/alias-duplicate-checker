@@ -1,5 +1,6 @@
 name: "FSH Alias Validator"
 description: "Checks FSH alias consistency"
+author: "patrick-werner"
 inputs:
   fsh_directory:
     description: "Path to the folder containing .fsh files"
@@ -8,3 +9,6 @@ inputs:
 runs:
   using: "node20"
   main: "index.js"
+branding:
+  icon: "check-circle"
+  color: "blue"
