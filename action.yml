@@ -1,0 +1,10 @@
+name: "FSH Alias Validator"
+description: "Checks FSH alias consistency"
+inputs:
+  fsh_directory:
+    description: "Path to the folder containing .fsh files"
+    required: false
+    default: "input/fsh"
+runs:
+  using: "node20"
+  main: "index.js"
