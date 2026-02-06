@@ -50,6 +50,3 @@ Tag with a `v` prefixed semver (e.g., `v0.2.0` or `v1.0.0`). The release workflo
 - runs the tests
 - creates a GitHub release
 - updates the major tag `v0` or `v1` to the new tag
-
-## Notes
-- Replace `OWNER` in the badges with your GitHub org/user name.
