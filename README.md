@@ -1,7 +1,7 @@
 # FSH Alias Validator Action
 
-![CI](https://github.com/OWNER/alias-duplicate-checker/actions/workflows/ci.yml/badge.svg)
-![Release](https://img.shields.io/github/v/release/OWNER/alias-duplicate-checker?sort=semver)
+![CI](https://github.com/patrick-werner/alias-duplicate-checker/actions/workflows/ci.yml/badge.svg)
+![Release](https://img.shields.io/github/v/release/patrick-werner/alias-duplicate-checker?sort=semver)
 ![Node](https://img.shields.io/badge/node-20.x-339933)
 ![FHIR](https://img.shields.io/badge/FHIR-required-0b7285)
 ![FSH](https://img.shields.io/badge/FSH-aliases-6f42c1)
